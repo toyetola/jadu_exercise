@@ -19,12 +19,14 @@ class CheckerController extends AbstractController
                     <head>
                     <title>Oyetola Taiwo\'s Solution</title>
                     </head>
-                    <body style="margin: auto; width: 70%">
-                    <div><h5>Welcome to Oyetola JADU exercise solution</h5></div>
-                    <div><a href="/checker/palindrome/anna">Palindrome</a> <a href="">Anagram</a> <a href="">Pangram</a></div>
+                    <body style="margin: auto; width: 50%; margin-top: 10%; margin-left: 30%">
+                    <div><h1>Welcome to Oyetola JADU exercise solution</h1></div>
+                    
+                    <u style="font-size: 18px;">Methods</u>
+                    <div style="font-size: 20px;"><b>Palindrome</b> |  <b>Anagram</b>  | <b>Pangram</b></div>
                     </body>
-                    <section>
-                    lll
+                    <section style="margin-top: 40px;">
+                       Find the codes in <code>./src/controller/CheckerController.php</code>
                     </section>
                     </html>'
         );

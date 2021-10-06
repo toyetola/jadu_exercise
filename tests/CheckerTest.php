@@ -13,7 +13,7 @@ class CheckerTest extends WebTestCase
         $crawler = $client->request('GET', '/');
 
         $this->assertResponseIsSuccessful();
-        $this->assertSelectorTextContains('h5', 'Welcome to Oyetola JADU exercise solution');
+        $this->assertSelectorTextContains('h1', 'Welcome to Oyetola JADU exercise solution');
 //        $this->assertJsonContains(['@id' => '/']);
     }
 
