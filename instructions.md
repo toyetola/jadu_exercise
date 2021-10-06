@@ -4,6 +4,8 @@ To run this code in your local machine
 
  - run  __git clone _github_url___ on your git enabled terminal
  
+    _github_url_ = https://github.com/toyetola/jadu_exercise.git
+ 
  - cd into the root folder
  
  - run __composer install__ to install all dependencies
